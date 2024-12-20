@@ -648,7 +648,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 45px;
 }
 .getting-there__top__table .inf {
   display: flex;
@@ -921,6 +920,11 @@ footer .navigation__media .footer__block_text {
   letter-spacing: 0.5px;
   margin-left: 28px;
 }
+.getting-there .getting-there__top .getting-there__top__table .inf .inf__circle {
+  width: 70px;
+  height: 60px;
+  border-radius: 30px;}
+
 @media (min-width: 992px) and (max-width: 1218px) {
   .vertical-line__divider{
     display:none;
@@ -959,8 +963,19 @@ footer .navigation__media .footer__block_text {
   .articles__inf{
     gap: 160px;
   }
+  .getting-there .getting-there__top .getting-there__top__table .inf .inf__circle {
+    width: 60px;
+    height: 50px;
+    border-radius: 30px;}
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  .getting-there .getting-there__top .getting-there__top__table .inf .inf__circle {
+    width: 60px;
+    height: 50px;
+    border-radius: 30px;}
+
+
+
   .vertical-line__divider{
     display:none;
   }
@@ -1138,6 +1153,10 @@ footer .navigation__media .footer__block_text {
     margin-top: 180px;
     margin-left: 100px;
 }
+.getting-there .getting-there__top .getting-there__top__table .inf .inf__circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;}
 .intro__button {
   width: 215px;
   width: 315px;
@@ -1551,4 +1570,39 @@ footer .footer__block .navigation .navigation__media {
 .scroll-to-top img {
   display: none;
 }
+.video video {
+  max-width: 320px;
+  width: 85%;
+  border-radius: 10px;
+}
+
+.explore-and-numbers .slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+.map {
+  height: 500px;
+}
+.explore-and-numbers__block{
+  height: 880px;
+}
+.photo-gallery {
+  height: 600px;
+}
+.articles__inf_card {
+  gap: 100px;
+}
+.articles__inf {
+  gap: 75px;
+}
+.articles {
+  height: 1600px;
+}
+.getting-there .getting-there__top .getting-there__top__table .inf .inf__circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;}
 }
